@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Response</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            color: blue;
+        }
+        /*
+        @media screen and (max-width:500px)
+        {
+            body{
+            background-color: rgb(94, 155, 247);
+            color: pink;
+            }
+        }*/
+        #left{
+            width: 20%;
+            background-color: green;
+            float: left;
+        }
+        #main{
+            width: 60%;
+            background-color: pink ;
+            float: left;
+
+        }
+        #right{
+            width:20%;
+            background-color: blueviolet;
+            float: left;
+        }
+        @media screen and (max-width:700px) {
+            #left,#main,#right{
+                width: 100%;
+            }
+            
+        }
+    </style>   
+</head>
+<body>
+    <h1>Welcome to Responsive Webpage</h1>
+
+    <div id="left"> left content </div>
+    <div id="main">main content</div>
+    <div id="right">right content</div>
+</body>
+</html>
